@@ -38,6 +38,8 @@ export const site = {
     "Prisma",
     "AWS",
     "Docker",
+    "Nginx",
+    "Caddy",
     "WebRTC",
     "Socket.io",
     "SEO",
@@ -74,8 +76,12 @@ export const skills = [
     items: ["Stripe", "Razorpay", "Cashfree", "PayPal"],
   },
   {
-    group: "DevOps & Cloud",
-    items: ["AWS", "Docker", "CI/CD", "Vercel", "Render", "Railway"],
+    group: "DevOps & Servers",
+    items: ["Docker", "CI/CD Pipelines", "Nginx", "Caddy", "Linux Server Setup", "Swap Memory Configuration"],
+  },
+  {
+    group: "Cloud & Monitoring",
+    items: ["AWS", "AWS Monitoring", "Uptime Monitoring", "Vercel", "Render", "Railway"],
   },
   {
     group: "Growth & Marketing",
@@ -95,6 +101,7 @@ export const experience = [
       "Develop scalable features following clean architecture and the repository pattern",
       "Containerize services with Docker and automate build, test and release with CI/CD pipelines",
       "Deploy, monitor and maintain applications on AWS for reliable, repeatable releases",
+      "Configure Linux servers with Nginx and Caddy reverse proxies, SSL and swap memory for stable performance",
     ],
   },
   {

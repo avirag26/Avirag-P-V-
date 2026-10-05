@@ -17,7 +17,7 @@ const principles = [
   },
   {
     title: "DevOps mindset",
-    body: "Docker, CI/CD and AWS — automated, repeatable releases instead of manual deploys.",
+    body: "Docker, CI/CD, Nginx and AWS — automated releases and monitored, well-tuned servers.",
   },
   {
     title: "Growth-minded",
