@@ -26,7 +26,7 @@ export default function OpengraphImage() {
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ fontSize: 110, fontWeight: 700, letterSpacing: -4, lineHeight: 1 }}>{site.name}</div>
           <div style={{ fontSize: 40, color: "#a1a1a1", marginTop: 28 }}>
-            {site.experienceYears} years · Next.js · NestJS · Docker · CI/CD · AWS
+            {`${site.experienceYears} years · Next.js · NestJS · Docker · CI/CD · AWS`}
           </div>
         </div>
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: 26, color: "#737373" }}>
